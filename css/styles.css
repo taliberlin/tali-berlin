@@ -20,11 +20,16 @@ h1 {
   font-size: 96px;
 }
 
-h2 {
+p {
+  font-size: 18px;
+}
+
+h2,
+.above-heading {
   font-size: 48px;
 }
 
-h3 {
+.sub-heading {
   font-size: 24px;
   opacity: 0.7;
 }
@@ -91,10 +96,13 @@ h3 {
   color: white;
 }
 
-p {
-  font-size: 18px;
-}
-
 .about-paragraph {
   margin: 30px 0;
+}
+
+@media (max-width: 500px) {
+  .weather-app-photo {
+    position: relative;
+    top: 35px;
+  }
 }
