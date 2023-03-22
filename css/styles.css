@@ -101,8 +101,12 @@ h2,
 }
 
 @media (max-width: 500px) {
-  .weather-app-photo {
-    position: relative;
-    top: 35px;
+  img {
+    display: none;
+  }
+
+  .text-start,
+  .app-grid {
+    text-align: center !important;
   }
 }
